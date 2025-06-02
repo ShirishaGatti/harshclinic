@@ -5,6 +5,6 @@
 // });
 export const myAxios = axios.create({
     baseURL: 'https://harsh-2onb.onrender.com',
-    withCredentials: true, // <-- very important
+    // withCredentials: true, // <-- very important
 });
 
