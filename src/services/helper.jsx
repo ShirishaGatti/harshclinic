@@ -4,7 +4,8 @@
 //     baseURL: 'https://harsh-2onb.onrender.com', // Ensure backend server is running here
 // });
 export const myAxios = axios.create({
-    baseURL: 'https://localhost:8086',
-    // withCredentials: true, // <-- very important
+    baseURL: 'https://harsh-2onb.onrender.com',
+    withCredentials: true, // <-- very important
+
 });
 
